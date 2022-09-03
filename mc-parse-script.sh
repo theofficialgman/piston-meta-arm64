@@ -60,12 +60,18 @@ for json_file in `find . -type f -name "*.json"`; do
 
   # modify version_manifest_v2.json
   sha1=$(sha1sum "$GIT_DIR/version-json/$json_file" | awk '{ print $1 }')
-  jq -c '(.versions[] | select(.id == "'${json_file:2:-5}'") | .sha1) |= "'$sha1'" | (.versions[] | select(.id == "'${json_file:2:-5}'") | .url) |= "'https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/${json_file:2}'"' "$GIT_DIR/mc/game/version_manifest_v2.json" | sponge "$GIT_DIR/mc/game/version_manifest_v2.json"
+  # generate URL safe path
+  json_url=$(echo "${json_file:2}" | sed -f "$GIT_DIR/url_escape.sed")
+  jq '(.versions[] | select(.id == "'${json_file:2:-5}'") | .sha1) |= "'$sha1'" | (.versions[] | select(.id == "'${json_file:2:-5}'") | .url) |= "'https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/$json_url'"' "$GIT_DIR/mc/game/version_manifest_v2_noncompact.json" | sponge "$GIT_DIR/mc/game/version_manifest_v2_noncompact.json"
   
 done
 
 # generate modified version_manifest.json
-cat "$GIT_DIR/mc/game/version_manifest_v2.json" | jq -c 'del(.versions[].sha1) | del(.versions[].complianceLevel)' > "$GIT_DIR/mc/game/version_manifest.json"
+cat "$GIT_DIR/mc/game/version_manifest_v2_noncompact.json" | jq 'del(.versions[].sha1) | del(.versions[].complianceLevel)' > "$GIT_DIR/mc/game/version_manifest_noncompact.json"
+
+# compact version_manifest files
+cat "$GIT_DIR/mc/game/version_manifest_noncompact.json" | jq -c > "$GIT_DIR/mc/game/version_manifest.json"
+cat "$GIT_DIR/mc/game/version_manifest_v2_noncompact.json" | jq -c > "$GIT_DIR/mc/game/version_manifest_v2.json"
 
 IFS="$OIFS"
 
