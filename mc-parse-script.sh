@@ -16,7 +16,7 @@ cd original_json
 wget -i ../urls.txt
 
 spruce(){
-  /tmp/spruce-linux-amd64 "$@"
+  "$GIT_DIR/spruce-linux-amd64" "$@"
 }
 
 OIFS="$IFS"
