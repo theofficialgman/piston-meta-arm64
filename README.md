@@ -13,10 +13,10 @@ Minecraft launchers can be modified to use this meta repo instead of mojangs met
 
 GDLauncher required minimal changes for a functional build: https://github.com/gorilla-devs/GDLauncher/pull/1451<br>
 Builds for ARM64 Linux here: <br>
-https://github.com/theofficialgman/testing/releases/download/gmans-releases/GDLauncher-linux-setup.deb<br>
-https://github.com/theofficialgman/testing/releases/download/gmans-releases/GDLauncher-linux-setup.rpm<br>
-https://github.com/theofficialgman/testing/releases/download/gmans-releases/GDLauncher-linux-setup.zip<br>
-https://github.com/theofficialgman/testing/releases/download/gmans-releases/GDLauncher-linux-setup.AppImage<br>
+https://github.com/Pi-Apps-Coders/files/releases/download/large-files/GDLauncher-linux-arm64-1.1.29-setup.AppImage<br>
+https://github.com/Pi-Apps-Coders/files/releases/download/large-files/GDLauncher-linux-arm64-1.1.29-setup.deb<br>
+https://github.com/Pi-Apps-Coders/files/releases/download/large-files/GDLauncher-linux-arm64-1.1.29-setup.rpm<br>
+https://github.com/Pi-Apps-Coders/files/releases/download/large-files/GDLauncher-linux-arm64-1.1.29-setup.zip<br>
 
 ## This repo uses my (theofficialgman) already existing ARM64 lwjgl/jinput ports:
 - LWJGL 2.9.4-nightly-20150209 (for minecraft 1.12 and older)<br>
