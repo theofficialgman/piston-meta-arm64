@@ -35,8 +35,12 @@ for json_file in `find . -type f -name "*.json"`; do
     old_format=0
   fi
   if [ -z "$lwjgl_version" ];then
-    echo "minecraft version $json_file use lwjgl: Unknown"
-    break
+    echo -e "\e[91mThe version for LWJGL could not be determined for $json_file\e[0m"
+    # remove game version from json folder
+    rm "$GIT_DIR/version-json/$json_file"
+    # remove game version from manifest
+    jq 'del(.versions[] | select(.id == "'${json_file:2:-5}'"))' "$GIT_DIR/mc/game/version_manifest_v2_noncompact.json" | sponge "$GIT_DIR/mc/game/version_manifest_v2_noncompact.json"
+    continue
   else
     echo "minecraft version $json_file uses lwjgl: $lwjgl_version"
     cat "$json_file" | jq 'del(.libraries[] | select(.name | contains("org.lwjgl")))' > "$GIT_DIR/version-json/$json_file"
@@ -56,6 +60,11 @@ for json_file in `find . -type f -name "*.json"`; do
     spruce merge "$GIT_DIR/version-json/$json_file" "$GIT_DIR/mc-static-json/$lwjgl_version.json" | spruce json | sponge "$GIT_DIR/version-json/$json_file"
   else
     echo -e "\e[91mThis version of LWJGL ($lwjgl_version) is not recognized\e[0m"
+    # remove game version from json folder
+    rm "$GIT_DIR/version-json/$json_file"
+    # remove game version from manifest
+    jq 'del(.versions[] | select(.id == "'${json_file:2:-5}'"))' "$GIT_DIR/mc/game/version_manifest_v2_noncompact.json" | sponge "$GIT_DIR/mc/game/version_manifest_v2_noncompact.json"
+    continue
   fi
 
   # modify version_manifest_v2.json
