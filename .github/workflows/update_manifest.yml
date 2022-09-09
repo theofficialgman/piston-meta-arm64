@@ -22,6 +22,8 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run app update scripts
         run: |
+          sudo apt update
+          sudo apt install moreutils jq -y
           cd $GITHUB_WORKSPACE || exit 1
           ./mc-parse-script.sh
 
