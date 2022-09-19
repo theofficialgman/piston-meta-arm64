@@ -1,6 +1,6 @@
 #!/bin/bash
 
-GIT_DIR=$(pwd)
+GIT_DIR=$(dirname -- "$( readlink -f -- "$0"; )")
 
 mkdir -p /tmp/test
 cd /tmp/test || exit
@@ -13,7 +13,7 @@ mkdir -p "$GIT_DIR/version-json"
 
 # mkdir original_json_jq
 
-wget https://piston-meta.mojang.com/mc/game/version_manifest_v2.json
+wget https://piston-meta.mojang.com/mc/game/version_manifest_v2.json || exit 1
 cat version_manifest_v2.json | jq -r '.versions[].url' > urls.txt
 cp version_manifest_v2.json "$GIT_DIR/mc/game/version_manifest_v2_noncompact.json"
 
