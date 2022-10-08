@@ -36,3 +36,5 @@ https://github.com/theofficialgman/lwjgl3 (check the `3.2.2-arm`, `3.2.1-arm`, a
 https://github.com/theofficialgman/lwjgl (checkout the commit corresponding to `2.9.4-nightly-20150209`)<br>
 
 https://github.com/jinput/jinput/tree/2.0.7<br>
+
+FOSS Software [Spruce](https://github.com/geofffranks/spruce) is included in binary form in this repo to assist with automation, its license is found here: https://github.com/geofffranks/spruce/blob/master/LICENSE
