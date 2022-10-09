@@ -26,6 +26,8 @@ https://github.com/Pi-Apps-Coders/files/releases/download/large-files/GDLauncher
 - backported versions of 3.1.6, 3.2.1, and 3.2.2 for armhf/arm64 compatibility, and a spoofed 3.1.2 (for prerelease 1.13 minecraft)<br>
 - official lwjgl 3.3.1 armhf/arm64 linux builds are also included for use with Minecraft 22w16a (1.19 prerelease) and newer<br>
 
+The only library that does not have a native arm64 version is the narrator library created by Mojang. This just means the in-game narrator is unavailable. The sources for this library are available but it is not easily buildable outside of microsoft's full build system. You can find the sources here: <https://libraries.minecraft.net/com/mojang/text2speech/1.13.9/text2speech-1.13.9-sources.jar> . Change the version number to match the desired version used in Minecraft. If anyone is able to build this library, create an issue in this repo.
+
 ## LWJGL/Jinput Binaries
 
 https://github.com/theofficialgman/lwjgl3-binaries-arm64<br>
