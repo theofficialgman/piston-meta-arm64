@@ -1,43 +1,52 @@
 {
   "latest": {
     "release": "1.19.2",
-    "snapshot": "22w45a"
+    "snapshot": "22w46a"
   },
   "versions": [
+    {
+      "id": "22w46a",
+      "type": "snapshot",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/22w46a.json",
+      "time": "2022-11-16T13:37:08+00:00",
+      "releaseTime": "2022-11-16T13:32:50+00:00",
+      "sha1": "5be1fa47b4b614b0f84e1ed34d6886a9bc02eb23",
+      "complianceLevel": 1
+    },
     {
       "id": "22w45a",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/22w45a.json",
-      "time": "2022-11-09T14:34:54+00:00",
+      "time": "2022-11-16T13:19:15+00:00",
       "releaseTime": "2022-11-09T14:30:16+00:00",
-      "sha1": "2033d452d80d2130412c8c1746833f7b339d926b",
+      "sha1": "989a44468eaa38cff4c8d29725b3961623558baa",
       "complianceLevel": 1
     },
     {
       "id": "22w44a",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/22w44a.json",
-      "time": "2022-11-09T09:42:44+00:00",
+      "time": "2022-11-16T13:13:25+00:00",
       "releaseTime": "2022-11-02T13:15:43+00:00",
-      "sha1": "23575725eb41dee50f717892ea75a3e75b52b490",
+      "sha1": "23fe00336ffa966dd4565114362735ae8c08d15a",
       "complianceLevel": 1
     },
     {
       "id": "22w43a",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/22w43a.json",
-      "time": "2022-11-09T09:42:44+00:00",
+      "time": "2022-11-16T13:13:25+00:00",
       "releaseTime": "2022-10-26T11:55:59+00:00",
-      "sha1": "a17cf69c221577fc499d3580ed11ea582d5cef34",
+      "sha1": "a31dc3e8a05331b4781d1ca63e9ad1b8b7a65fc6",
       "complianceLevel": 1
     },
     {
       "id": "22w42a",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/22w42a.json",
-      "time": "2022-11-09T09:42:44+00:00",
+      "time": "2022-11-16T13:13:25+00:00",
       "releaseTime": "2022-10-19T09:34:22+00:00",
-      "sha1": "506c9a5df83d3334fa5b7d2241e543ef3d3342b5",
+      "sha1": "87fa359bc82cd8fb6e3ce1950aaca143b42c6b30",
       "complianceLevel": 1
     },
     {
