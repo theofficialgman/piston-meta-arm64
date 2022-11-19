@@ -15,6 +15,7 @@ Minecraft launchers can be modified to use this meta repo instead of mojangs met
 
 GDLauncher required minimal changes for a functional build: https://github.com/gorilla-devs/GDLauncher/pull/1451<br>
 Builds for ARM64 Linux here: <br>
+Get it from [pi-apps](https://github.com/Botspot/pi-apps)<br>
 https://github.com/Pi-Apps-Coders/files/releases/download/large-files/GDLauncher-linux-arm64-1.1.29-setup.AppImage<br>
 https://github.com/Pi-Apps-Coders/files/releases/download/large-files/GDLauncher-linux-arm64-1.1.29-setup.deb<br>
 https://github.com/Pi-Apps-Coders/files/releases/download/large-files/GDLauncher-linux-arm64-1.1.29-setup.rpm<br>
