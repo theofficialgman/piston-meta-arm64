@@ -1,79 +1,88 @@
 {
   "latest": {
     "release": "1.19.2",
-    "snapshot": "1.19.3-pre3"
+    "snapshot": "1.19.3-rc1"
   },
   "versions": [
+    {
+      "id": "1.19.3-rc1",
+      "type": "snapshot",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.19.3-rc1.json",
+      "time": "2022-12-01T13:55:14+00:00",
+      "releaseTime": "2022-12-01T13:45:18+00:00",
+      "sha1": "dad57935e47398d375b7f0c4574c9d8ad11b658a",
+      "complianceLevel": 1
+    },
     {
       "id": "1.19.3-pre3",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.19.3-pre3.json",
-      "time": "2022-11-29T14:37:18+00:00",
+      "time": "2022-12-01T12:03:34+00:00",
       "releaseTime": "2022-11-29T14:28:08+00:00",
-      "sha1": "8be21130777d8934a6846fcbf06090a267e09606",
+      "sha1": "30dc454b09925c6317a08a0ebdfe9b46c99cc2f1",
       "complianceLevel": 1
     },
     {
       "id": "1.19.3-pre2",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.19.3-pre2.json",
-      "time": "2022-11-29T13:32:35+00:00",
+      "time": "2022-12-01T12:03:34+00:00",
       "releaseTime": "2022-11-23T16:12:25+00:00",
-      "sha1": "d41688031e35d7c14b30d4ef6dbea9f42721ef6c",
+      "sha1": "1a4464cfe36bf350548920cf9e4b2b9b43e5a6fd",
       "complianceLevel": 1
     },
     {
       "id": "1.19.3-pre1",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.19.3-pre1.json",
-      "time": "2022-11-29T13:32:35+00:00",
+      "time": "2022-12-01T12:03:34+00:00",
       "releaseTime": "2022-11-22T13:59:37+00:00",
-      "sha1": "4dcf49606431fd321a65479e36e4264c30d0a275",
+      "sha1": "d60fb9b307bf621b17100ef0afe9f05d53e52ee3",
       "complianceLevel": 1
     },
     {
       "id": "22w46a",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/22w46a.json",
-      "time": "2022-11-29T13:32:35+00:00",
+      "time": "2022-12-01T12:03:34+00:00",
       "releaseTime": "2022-11-16T13:32:50+00:00",
-      "sha1": "011aed0a030a078f73684acc2d118d950fd06efd",
+      "sha1": "ddae830a80bf6a73c8887e9da65f91b387c12d32",
       "complianceLevel": 1
     },
     {
       "id": "22w45a",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/22w45a.json",
-      "time": "2022-11-29T13:32:35+00:00",
+      "time": "2022-12-01T12:03:34+00:00",
       "releaseTime": "2022-11-09T14:30:16+00:00",
-      "sha1": "8c7883f2aea66fa47f678b5b82c865b2d42bc415",
+      "sha1": "a53125c22f4e7c6016ea1ce6d22c5cbd98221cce",
       "complianceLevel": 1
     },
     {
       "id": "22w44a",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/22w44a.json",
-      "time": "2022-11-29T13:47:20+00:00",
+      "time": "2022-12-01T13:08:46+00:00",
       "releaseTime": "2022-11-02T13:15:43+00:00",
-      "sha1": "8cd43e9928f549dd62e09b74ae9265a88cc43e8b",
+      "sha1": "c087a5839cccfc98266329fb464cb373938aba80",
       "complianceLevel": 1
     },
     {
       "id": "22w43a",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/22w43a.json",
-      "time": "2022-11-29T13:47:20+00:00",
+      "time": "2022-12-01T13:08:46+00:00",
       "releaseTime": "2022-10-26T11:55:59+00:00",
-      "sha1": "fea243892744b95657b8e367ad0bbe66d76c7cc0",
+      "sha1": "0cbcee75bd1e7596210cad4669251b77ec61341a",
       "complianceLevel": 1
     },
     {
       "id": "22w42a",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/22w42a.json",
-      "time": "2022-11-29T13:47:20+00:00",
+      "time": "2022-12-01T13:08:46+00:00",
       "releaseTime": "2022-10-19T09:34:22+00:00",
-      "sha1": "c1ef8ba82ab431864049c23fa8036daea15fd93e",
+      "sha1": "b6bb3699616a4800c83cd8d6bcf0a28149c9ecea",
       "complianceLevel": 1
     },
     {
