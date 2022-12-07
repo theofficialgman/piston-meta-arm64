@@ -1,84 +1,91 @@
 {
   "latest": {
-    "release": "1.19.2",
-    "snapshot": "1.19.3-rc3"
+    "release": "1.19.3",
+    "snapshot": "1.19.3"
   },
   "versions": [
+    {
+      "id": "1.19.3",
+      "type": "release",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.19.3.json",
+      "time": "2022-12-07T08:58:43+00:00",
+      "releaseTime": "2022-12-07T08:17:18+00:00"
+    },
     {
       "id": "1.19.3-rc3",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.19.3-rc3.json",
-      "time": "2022-12-06T10:33:46+00:00",
+      "time": "2022-12-07T08:58:43+00:00",
       "releaseTime": "2022-12-06T10:24:01+00:00"
     },
     {
       "id": "1.19.3-rc2",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.19.3-rc2.json",
-      "time": "2022-12-06T09:47:20+00:00",
+      "time": "2022-12-07T08:58:43+00:00",
       "releaseTime": "2022-12-05T13:21:34+00:00"
     },
     {
       "id": "1.19.3-rc1",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.19.3-rc1.json",
-      "time": "2022-12-06T09:47:20+00:00",
+      "time": "2022-12-07T08:58:43+00:00",
       "releaseTime": "2022-12-01T13:45:18+00:00"
     },
     {
       "id": "1.19.3-pre3",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.19.3-pre3.json",
-      "time": "2022-12-06T09:47:20+00:00",
+      "time": "2022-12-07T08:58:43+00:00",
       "releaseTime": "2022-11-29T14:28:08+00:00"
     },
     {
       "id": "1.19.3-pre2",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.19.3-pre2.json",
-      "time": "2022-12-06T09:47:20+00:00",
+      "time": "2022-12-07T08:58:43+00:00",
       "releaseTime": "2022-11-23T16:12:25+00:00"
     },
     {
       "id": "1.19.3-pre1",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.19.3-pre1.json",
-      "time": "2022-12-06T09:47:20+00:00",
+      "time": "2022-12-07T08:58:43+00:00",
       "releaseTime": "2022-11-22T13:59:37+00:00"
     },
     {
       "id": "22w46a",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/22w46a.json",
-      "time": "2022-12-06T09:47:20+00:00",
+      "time": "2022-12-07T08:58:43+00:00",
       "releaseTime": "2022-11-16T13:32:50+00:00"
     },
     {
       "id": "22w45a",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/22w45a.json",
-      "time": "2022-12-06T09:47:20+00:00",
+      "time": "2022-12-07T08:58:43+00:00",
       "releaseTime": "2022-11-09T14:30:16+00:00"
     },
     {
       "id": "22w44a",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/22w44a.json",
-      "time": "2022-12-06T10:04:02+00:00",
+      "time": "2022-12-07T09:22:42+00:00",
       "releaseTime": "2022-11-02T13:15:43+00:00"
     },
     {
       "id": "22w43a",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/22w43a.json",
-      "time": "2022-12-06T10:04:02+00:00",
+      "time": "2022-12-07T09:22:42+00:00",
       "releaseTime": "2022-10-26T11:55:59+00:00"
     },
     {
       "id": "22w42a",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/22w42a.json",
-      "time": "2022-12-06T10:04:02+00:00",
+      "time": "2022-12-07T09:22:42+00:00",
       "releaseTime": "2022-10-19T09:34:22+00:00"
     },
     {
