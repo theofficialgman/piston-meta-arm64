@@ -54,9 +54,9 @@
         },
         "classifiers": {
           "natives-linux": {
-            "sha1": "1fd5c004024101ebba5ab971de71e993173a73a8",
-            "size": 156163,
-            "url": "https://github.com/theofficialgman/lwjgl3-binaries-arm64/raw/lwjgl-3.2.1/lwjgl-jemalloc-natives-linux-arm64.jar",
+            "sha1": "762d7d80c9cdf3a3f3fc80c8a5f86612255edfe0",
+            "size": 156343,
+            "url": "https://github.com/theofficialgman/lwjgl3-binaries-arm64/raw/lwjgl-3.2.1/lwjgl-jemalloc-patched-natives-linux-arm64.jar",
             "path": "org/lwjgl/lwjgl-jemalloc/3.2.1/lwjgl-jemalloc-3.2.1-natives-linux.jar"
           }
         }
