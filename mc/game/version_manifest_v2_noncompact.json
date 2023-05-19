@@ -1,9 +1,18 @@
 {
   "latest": {
     "release": "1.19.4",
-    "snapshot": "1.20-pre3"
+    "snapshot": "1.20-pre4"
   },
   "versions": [
+    {
+      "id": "1.20-pre4",
+      "type": "snapshot",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.20-pre4.json",
+      "time": "2023-05-19T13:20:03+00:00",
+      "releaseTime": "2023-05-19T13:13:45+00:00",
+      "sha1": "5e44779fd5dd8004764e23a222c830267caec1d5",
+      "complianceLevel": 1
+    },
     {
       "id": "1.20-pre3",
       "type": "snapshot",
