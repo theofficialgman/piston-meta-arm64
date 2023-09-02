@@ -60,7 +60,7 @@ for json_file in `find . -type f -name "*.json"`; do
   # 3.3.1 3.2.2 3.2.1 3.1.6 3.1.2 2.9.4-nightly-20150209 2.9.3 2.9.1 2.9.1-nightly-20131120 2.9.0
   if [[ "$lwjgl_version" =~ "2.9" ]]; then
     spruce merge "$GIT_DIR/version-json/$json_file" "$GIT_DIR/mc-static-json/2.9.4-nightly-20150209.json" | spruce json | sponge "$GIT_DIR/version-json/$json_file"
-  elif [[ "$lwjgl_version" =~ ^(3.1.2|3.1.6|3.2.1|3.2.2|3.3.1)$ ]]; then
+  elif [[ "$lwjgl_version" =~ ^(3.1.2|3.1.6|3.2.1|3.2.2|3.3.1|3.3.2)$ ]]; then
     spruce merge "$GIT_DIR/version-json/$json_file" "$GIT_DIR/mc-static-json/$lwjgl_version.json" | spruce json | sponge "$GIT_DIR/version-json/$json_file"
   else
     echo -e "\e[91mThis version of LWJGL ($lwjgl_version) is not recognized\e[0m"
