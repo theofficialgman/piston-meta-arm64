@@ -15,10 +15,11 @@ mkdir -p "$GIT_DIR/version-json"
 
 wget https://piston-meta.mojang.com/mc/game/version_manifest_v2.json || exit 1
 cat version_manifest_v2.json | jq -r '.versions[].url' > urls.txt
-cp version_manifest_v2.json "$GIT_DIR/mc/game/version_manifest_v2_noncompact.json"
 
 cd original_json
 wget --retry-on-http-error=500 --waitretry=1 -i ../urls.txt || exit 0
+
+cp ../version_manifest_v2.json "$GIT_DIR/mc/game/version_manifest_v2_noncompact.json"
 
 spruce(){
   "$GIT_DIR/spruce-linux-amd64" "$@"
