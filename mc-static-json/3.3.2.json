@@ -3,6 +3,44 @@
     {
       "downloads": {
         "artifact": {
+          "sha1": "4432335260047128efe750f40c07514826cc4e48",
+          "size": 442372,
+          "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2.jar",
+          "path": "org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2.jar"
+        }
+      },
+      "name": "org.lwjgl:lwjgl-freetype:3.3.2"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "4432335260047128efe750f40c07514826cc4e48",
+          "size": 442372,
+          "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2.jar",
+          "path": "org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2.jar"
+        },
+        "classifiers": {
+          "natives-linux": {
+            "sha1": "896e7d9b8f60d7273f3d491c69270afc67ece3ce",
+            "size": 1073374,
+            "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2-natives-linux-arm64.jar",
+            "path": "org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2-natives-linux.jar"
+          },
+          "sources": {
+            "sha1": "d524030b186f20d30ce3d469de492d019091221d",
+            "size": 291242,
+            "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-freetype/3.3.2/lwjgl-freetype-3.3.2-sources.jar"
+          }
+        }
+      },
+      "name": "org.lwjgl:lwjgl-freetype:3.3.2",
+      "natives": {
+        "linux": "natives-linux"
+      }
+    },
+    {
+      "downloads": {
+        "artifact": {
           "sha1": "757920418805fb90bfebb3d46b1d9e7669fca2eb",
           "size": 135828,
           "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-glfw/3.3.2/lwjgl-glfw-3.3.2.jar",
