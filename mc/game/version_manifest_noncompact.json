@@ -1,28 +1,35 @@
 {
   "latest": {
     "release": "1.21.1",
-    "snapshot": "24w38a"
+    "snapshot": "24w39a"
   },
   "versions": [
+    {
+      "id": "24w39a",
+      "type": "snapshot",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/24w39a.json",
+      "time": "2024-09-25T13:19:16+00:00",
+      "releaseTime": "2024-09-25T13:08:41+00:00"
+    },
     {
       "id": "24w38a",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/24w38a.json",
-      "time": "2024-09-18T12:44:05+00:00",
+      "time": "2024-09-25T12:50:32+00:00",
       "releaseTime": "2024-09-18T12:32:07+00:00"
     },
     {
       "id": "24w37a",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/24w37a.json",
-      "time": "2024-09-18T09:39:16+00:00",
+      "time": "2024-09-25T12:50:32+00:00",
       "releaseTime": "2024-09-11T13:01:31+00:00"
     },
     {
       "id": "24w36a",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/24w36a.json",
-      "time": "2024-09-18T09:39:16+00:00",
+      "time": "2024-09-25T12:50:32+00:00",
       "releaseTime": "2024-09-04T12:44:12+00:00"
     },
     {
@@ -4849,16 +4856,16 @@
       "releaseTime": "2012-12-27T22:00:00+00:00"
     },
     {
-      "id": "1.4.6",
+      "id": "1.4.5",
       "type": "release",
-      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.4.6.json",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.4.5.json",
       "time": "2022-03-10T09:51:38+00:00",
       "releaseTime": "2012-12-19T22:00:00+00:00"
     },
     {
-      "id": "1.4.5",
+      "id": "1.4.6",
       "type": "release",
-      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.4.5.json",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.4.6.json",
       "time": "2022-03-10T09:51:38+00:00",
       "releaseTime": "2012-12-19T22:00:00+00:00"
     },
