@@ -1,9 +1,18 @@
 {
   "latest": {
     "release": "1.21.3",
-    "snapshot": "1.21.4-rc2"
+    "snapshot": "1.21.4-rc3"
   },
   "versions": [
+    {
+      "id": "1.21.4-rc3",
+      "type": "snapshot",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.21.4-rc3.json",
+      "time": "2024-11-29T17:12:49+00:00",
+      "releaseTime": "2024-11-29T17:02:53+00:00",
+      "sha1": "7b723dee1414cc7d9649abd42b37b0bcb37a7a74",
+      "complianceLevel": 1
+    },
     {
       "id": "1.21.4-rc2",
       "type": "snapshot",
