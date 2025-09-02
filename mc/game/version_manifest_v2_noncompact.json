@@ -1,9 +1,18 @@
 {
   "latest": {
     "release": "1.21.8",
-    "snapshot": "25w36a"
+    "snapshot": "25w36b"
   },
   "versions": [
+    {
+      "id": "25w36b",
+      "type": "snapshot",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/25w36b.json",
+      "time": "2025-09-02T15:58:24+00:00",
+      "releaseTime": "2025-09-02T15:47:32+00:00",
+      "sha1": "ccb8b677791df710d53e25e4e6b32d861c3b5bf2",
+      "complianceLevel": 1
+    },
     {
       "id": "25w36a",
       "type": "snapshot",
