@@ -8,6 +8,8 @@ This repo takes advantage of this by parsing and rewriting the official meta rep
 
 If you are looking for ARM32 linux, I have a separate repo for that here -> https://github.com/theofficialgman/piston-meta-arm32
 
+PrismLauncher has integration of these ARM64 libraries officially in their meta repo https://github.com/PrismLauncher/meta and requires no additional changes.
+
 ## How to use this
 
 Minecraft launchers can be modified to use this meta repo instead of mojangs meta repo. For open source launchers, sometimes this is as simple as changing a string from `https://launchermeta.mojang.com/mc/game/version_manifest.json` to this manifest `https://raw.githubusercontent.com/theofficialgman/piston-meta-arm64/main/mc/game/version_manifest.json` and building the launcher.
