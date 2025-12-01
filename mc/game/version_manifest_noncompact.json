@@ -1,28 +1,35 @@
 {
   "latest": {
     "release": "1.21.10",
-    "snapshot": "1.21.11-pre3"
+    "snapshot": "1.21.11-pre4"
   },
   "versions": [
+    {
+      "id": "1.21.11-pre4",
+      "type": "snapshot",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.21.11-pre4.json",
+      "time": "2025-12-01T13:27:14+00:00",
+      "releaseTime": "2025-12-01T13:17:32+00:00"
+    },
     {
       "id": "1.21.11-pre3",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.21.11-pre3.json",
-      "time": "2025-11-25T14:05:17+00:00",
+      "time": "2025-12-01T12:45:54+00:00",
       "releaseTime": "2025-11-25T13:56:50+00:00"
     },
     {
       "id": "1.21.11-pre2",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.21.11-pre2.json",
-      "time": "2025-11-25T13:34:53+00:00",
+      "time": "2025-12-01T12:45:54+00:00",
       "releaseTime": "2025-11-21T11:44:15+00:00"
     },
     {
       "id": "1.21.11-pre1",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.21.11-pre1.json",
-      "time": "2025-11-25T13:34:53+00:00",
+      "time": "2025-12-01T12:45:54+00:00",
       "releaseTime": "2025-11-19T08:06:45+00:00"
     },
     {
@@ -5206,17 +5213,17 @@
       "releaseTime": "2013-09-19T15:52:37+00:00"
     },
     {
-      "id": "13w37b",
-      "type": "snapshot",
-      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/13w37b.json",
-      "time": "2019-06-28T07:08:08+00:00",
-      "releaseTime": "2013-09-13T10:54:41+00:00"
-    },
-    {
       "id": "1.6.3",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.6.3.json",
       "time": "2019-06-28T07:07:47+00:00",
+      "releaseTime": "2013-09-13T10:54:41+00:00"
+    },
+    {
+      "id": "13w37b",
+      "type": "snapshot",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/13w37b.json",
+      "time": "2019-06-28T07:08:08+00:00",
       "releaseTime": "2013-09-13T10:54:41+00:00"
     },
     {
