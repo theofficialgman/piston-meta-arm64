@@ -1,43 +1,52 @@
 {
   "latest": {
     "release": "1.21.10",
-    "snapshot": "1.21.11-pre4"
+    "snapshot": "1.21.11-pre5"
   },
   "versions": [
+    {
+      "id": "1.21.11-pre5",
+      "type": "snapshot",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.21.11-pre5.json",
+      "time": "2025-12-03T13:26:59+00:00",
+      "releaseTime": "2025-12-03T13:14:25+00:00",
+      "sha1": "397e82c54120f863a741fe7040b056eadab13504",
+      "complianceLevel": 1
+    },
     {
       "id": "1.21.11-pre4",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.21.11-pre4.json",
-      "time": "2025-12-01T13:27:14+00:00",
+      "time": "2025-12-03T13:03:48+00:00",
       "releaseTime": "2025-12-01T13:17:32+00:00",
-      "sha1": "eb512ea2158fabaaf3010e155fd213d7308db4a1",
+      "sha1": "88842a64c03422091719e3cf588c4e188864385a",
       "complianceLevel": 1
     },
     {
       "id": "1.21.11-pre3",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.21.11-pre3.json",
-      "time": "2025-12-01T12:45:54+00:00",
+      "time": "2025-12-03T13:03:48+00:00",
       "releaseTime": "2025-11-25T13:56:50+00:00",
-      "sha1": "4a52b7558ec8564f10eb9a212dbdde5315ae52da",
+      "sha1": "1c4f3abe55d7f04c97092b886b2f4e66b33caa5c",
       "complianceLevel": 1
     },
     {
       "id": "1.21.11-pre2",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.21.11-pre2.json",
-      "time": "2025-12-01T12:45:54+00:00",
+      "time": "2025-12-03T13:03:48+00:00",
       "releaseTime": "2025-11-21T11:44:15+00:00",
-      "sha1": "0c462703aca8d1e3b0d4a56ec7deb3c50a9dfc3f",
+      "sha1": "be77efcafac5ad2f827f39814312b79a0f850af0",
       "complianceLevel": 1
     },
     {
       "id": "1.21.11-pre1",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/1.21.11-pre1.json",
-      "time": "2025-12-01T12:45:54+00:00",
+      "time": "2025-12-03T13:03:48+00:00",
       "releaseTime": "2025-11-19T08:06:45+00:00",
-      "sha1": "b06c2a6f62a0b9eb187ce7412d9c8994a31c7187",
+      "sha1": "b42da1914de8f6b59f82815799af61977377e6cd",
       "complianceLevel": 1
     },
     {
