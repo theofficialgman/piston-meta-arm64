@@ -5,6 +5,42 @@
   },
   "versions": [
     {
+      "id": "26.1-snapshot-11",
+      "type": "snapshot",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/26.1-snapshot-11.json",
+      "time": "2026-03-03T13:07:22+00:00",
+      "releaseTime": "2026-03-03T13:01:51+00:00",
+      "sha1": "4d6ba21ffacaf12c070336b92c33af19d561e078",
+      "complianceLevel": 1
+    },
+    {
+      "id": "26.1-snapshot-10",
+      "type": "snapshot",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/26.1-snapshot-10.json",
+      "time": "2026-03-03T12:52:23+00:00",
+      "releaseTime": "2026-02-24T13:03:38+00:00",
+      "sha1": "2548b47752498c27e4b8cdf5085263cdb5719e9d",
+      "complianceLevel": 1
+    },
+    {
+      "id": "26.1-snapshot-9",
+      "type": "snapshot",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/26.1-snapshot-9.json",
+      "time": "2026-03-03T12:52:23+00:00",
+      "releaseTime": "2026-02-18T10:13:30+00:00",
+      "sha1": "4746b02706bd96c24b9ac3ac797df8cadffaacf4",
+      "complianceLevel": 1
+    },
+    {
+      "id": "26.1-snapshot-8",
+      "type": "snapshot",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/26.1-snapshot-8.json",
+      "time": "2026-03-03T12:52:23+00:00",
+      "releaseTime": "2026-02-17T12:42:24+00:00",
+      "sha1": "cbe1211bc2ce79094408b2a535c03d687963fe87",
+      "complianceLevel": 1
+    },
+    {
       "id": "26.1-snapshot-7",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/26.1-snapshot-7.json",
@@ -173,6 +209,15 @@
       "time": "2026-03-03T06:40:52+00:00",
       "releaseTime": "2025-10-28T14:02:28+00:00",
       "sha1": "9aae852acd0411dd5aac4026795424a53a407476",
+      "complianceLevel": 1
+    },
+    {
+      "id": "25w43a",
+      "type": "snapshot",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/25w43a.json",
+      "time": "2026-03-03T06:40:52+00:00",
+      "releaseTime": "2025-10-21T11:38:51+00:00",
+      "sha1": "308de9571c69fd5209f6c327dc42736390d0a46d",
       "complianceLevel": 1
     },
     {
