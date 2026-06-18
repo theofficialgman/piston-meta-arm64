@@ -2,7 +2,7 @@
 
 This repo hosts a replacement Minecraft Java Manifest for ARM64 Linux.
 Minecraft has a manifest file that tells minecraft launchers where the files are located on the intenet, what files go with what version of the game, and what launch arguments to launch the game with.
-See the wiki for more info: https://minecraft.fandom.com/wiki/Version_manifest.json
+See the wiki for more info: https://minecraft.wiki/w/Version_manifest.json
 
 This repo takes advantage of this by parsing and rewriting the official meta repo for unofficial ARM64 linux support.
 
