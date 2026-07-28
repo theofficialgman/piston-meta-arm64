@@ -31,7 +31,7 @@ for json_file in `find . -type f -name "*.json"`; do
   # cat "$json_file" | jq > "../original_json_jq/$json_file"
   
   # "name": "org.lwjgl:lwjgl:3.3.1"
-  lwjgl_version=$(cat "$json_file" | jq -r '.libraries | .[] | .name | select(contains("org.lwjgl:lwjgl:"))' | sed 's/org.lwjgl:lwjgl://g' | sed '/:/d' | sort -g -r | head -1)
+  lwjgl_version=$(cat "$json_file" | jq -r '.libraries | .[] | .name | select(contains("org.lwjgl:lwjgl:"))' | sed 's/org.lwjgl:lwjgl://g' | sed 's/:.*//' | sort -g -r | head -1)
   if [ -z "$lwjgl_version" ];then
     # "name": "org.lwjgl.lwjgl:lwjgl:2.9.1-nightly-20131120"
     lwjgl_version=$(cat "$json_file" | jq -r '.libraries | .[] | .name | select(contains("org.lwjgl.lwjgl:lwjgl:"))' | sed 's/org.lwjgl.lwjgl:lwjgl://g' | sed '/:/d' | sort -g -r | head -1)
