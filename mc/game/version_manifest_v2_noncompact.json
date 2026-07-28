@@ -5,6 +5,123 @@
   },
   "versions": [
     {
+      "id": "26.3-snapshot-4",
+      "type": "snapshot",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/26.3-snapshot-4.json",
+      "time": "2026-07-21T10:10:12+00:00",
+      "releaseTime": "2026-07-16T13:59:30+00:00",
+      "sha1": "a75c46257da77a35cdb7c51f43b7db71943c43bd",
+      "complianceLevel": 1
+    },
+    {
+      "id": "26.3-snapshot-3",
+      "type": "snapshot",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/26.3-snapshot-3.json",
+      "time": "2026-07-21T10:10:12+00:00",
+      "releaseTime": "2026-07-07T12:03:01+00:00",
+      "sha1": "33dbaa1ffc996c3b493947a8746f8db076c5fc5b",
+      "complianceLevel": 1
+    },
+    {
+      "id": "26.3-snapshot-2",
+      "type": "snapshot",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/26.3-snapshot-2.json",
+      "time": "2026-07-21T10:10:12+00:00",
+      "releaseTime": "2026-06-30T12:45:43+00:00",
+      "sha1": "2145e6194c62013d5a9f9ca9e5cacd16df2d277a",
+      "complianceLevel": 1
+    },
+    {
+      "id": "26.3-snapshot-1",
+      "type": "snapshot",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/26.3-snapshot-1.json",
+      "time": "2026-07-21T10:10:12+00:00",
+      "releaseTime": "2026-06-23T11:57:02+00:00",
+      "sha1": "63a59fdb57aa2100c786f5e3fbf264ebec916303",
+      "complianceLevel": 1
+    },
+    {
+      "id": "26.2",
+      "type": "release",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/26.2.json",
+      "time": "2026-07-21T06:40:05+00:00",
+      "releaseTime": "2026-06-16T12:03:33+00:00",
+      "sha1": "ca0fffa460f963f0f3d86af9c059b8201d1fa567",
+      "complianceLevel": 1
+    },
+    {
+      "id": "26.2-rc-2",
+      "type": "snapshot",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/26.2-rc-2.json",
+      "time": "2026-07-21T06:40:05+00:00",
+      "releaseTime": "2026-06-12T11:32:28+00:00",
+      "sha1": "49f551acda74ee1188b57747d33ebe8a3f79508a",
+      "complianceLevel": 1
+    },
+    {
+      "id": "26.2-rc-1",
+      "type": "snapshot",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/26.2-rc-1.json",
+      "time": "2026-07-21T06:40:05+00:00",
+      "releaseTime": "2026-06-11T11:57:50+00:00",
+      "sha1": "49a7893f36b0177ad3a81f2e6b584d5af9391b77",
+      "complianceLevel": 1
+    },
+    {
+      "id": "26.2-pre-6",
+      "type": "snapshot",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/26.2-pre-6.json",
+      "time": "2026-07-21T06:40:05+00:00",
+      "releaseTime": "2026-06-10T12:20:24+00:00",
+      "sha1": "58144ba4edb88b2b3c05fd105b652f3e5e72f884",
+      "complianceLevel": 1
+    },
+    {
+      "id": "26.2-pre-5",
+      "type": "snapshot",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/26.2-pre-5.json",
+      "time": "2026-07-21T06:40:05+00:00",
+      "releaseTime": "2026-06-08T13:04:25+00:00",
+      "sha1": "ad299d1a13fb9512b14446e53e02fb231f53aaf1",
+      "complianceLevel": 1
+    },
+    {
+      "id": "26.2-pre-4",
+      "type": "snapshot",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/26.2-pre-4.json",
+      "time": "2026-07-21T06:40:05+00:00",
+      "releaseTime": "2026-06-04T12:38:47+00:00",
+      "sha1": "7b4106ec333a1c58b291a12a7e18ab16a214d1eb",
+      "complianceLevel": 1
+    },
+    {
+      "id": "26.2-pre-3",
+      "type": "snapshot",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/26.2-pre-3.json",
+      "time": "2026-07-21T06:40:05+00:00",
+      "releaseTime": "2026-06-02T11:48:29+00:00",
+      "sha1": "ed8328b26d2333132986d84a6f10cb956cc64393",
+      "complianceLevel": 1
+    },
+    {
+      "id": "26.2-pre-2",
+      "type": "snapshot",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/26.2-pre-2.json",
+      "time": "2026-07-21T06:40:05+00:00",
+      "releaseTime": "2026-05-28T12:45:31+00:00",
+      "sha1": "c6a549ba7eac9226b2de3aabbb5b26436b7ab0a4",
+      "complianceLevel": 1
+    },
+    {
+      "id": "26.2-pre-1",
+      "type": "snapshot",
+      "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/26.2-pre-1.json",
+      "time": "2026-07-21T06:40:05+00:00",
+      "releaseTime": "2026-05-26T13:48:31+00:00",
+      "sha1": "328634c22a971bc8ccbc7ee2f532dfc7817a1a8d",
+      "complianceLevel": 1
+    },
+    {
       "id": "26.2-snapshot-8",
       "type": "snapshot",
       "url": "https://github.com/theofficialgman/piston-meta-arm64/raw/main/version-json/26.2-snapshot-8.json",
